@@ -286,7 +286,9 @@ namespace DynamoInventor
             // dlls for this project are in the Inventor_20xx folder below.
             // This doesn't hurt anything for now, but once 2016 comes out it will be a problem.
             //DynamoPathManager.Instance.InitializeCore(System.IO.Path.GetFullPath(assDir + @"\.."));
-            DynamoPathManager.Instance.InitializeCore("C:\\Projects\\Dynamo\\Dynamo\\bin\\AnyCPU\\Debug");
+            //DynamoPathManager.Instance.InitializeCore("C:\\Projects\\Dynamo\\Dynamo\\bin\\AnyCPU\\Debug");
+            DynamoPathManager.Instance.InitializeCore("C:\\Program Files\\Dynamo 0.9");
+
             
 
             // Add Revit-specific paths for loading.
